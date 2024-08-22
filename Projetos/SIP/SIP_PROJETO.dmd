@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIP_PROJETO" id="1CF8FD20-32BF-8C4D-B218-8D38283E81CD" version="3.5">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 20:57:24 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1CF8FD20-32BF-8C4D-B218-8D38283E81CD</designId>
+</OSDM_Design>

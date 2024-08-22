@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E11627E1-7773-D66F-8651-0E68E6DB1B9E" name="SIP_IMPLEM">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:56:02 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD" id="C2D12671-A25B-07EF-6ADC-FBFE12630340">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:56:14 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ENT" id="A280D8E6-EAE9-A373-A3DC-E70751686B8B">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:56:26 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_SAID" id="95177F97-B8DE-AF7C-D26C-CC473DA61846">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:56:40 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="1605FEC0-29E9-3C16-0D80-1B23998C33D8">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:59:27 UTC</createdTime>
+<generatorID>C6091345-8ADC-9688-E629-35FC92EB205D</generatorID>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<referedAttribute>8E2876C9-4555-73AB-CB89-A5BAC378B52C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="E64EA4AC-48EC-B940-5866-AD12E0E1AFBE">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:59:58 UTC</createdTime>
+<generatorID>57C842F9-6E7D-4EC3-FAD4-B50EF97E950B</generatorID>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<referedAttribute>3190C2E5-C368-E3DF-A7DB-324CB9559F82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1305A5D-EF86-092A-07EC-9AE27C670B25" name="SIP_IMPLEM PK">
+<createdBy>amandarangel</createdBy>
+<createdTime>2024-08-22 21:56:21 UTC</createdTime>
+<ownerDesignName>SIP_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="0629E937-C8A6-7BC5-A142-07CE51106337" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2D12671-A25B-07EF-6ADC-FBFE12630340</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
